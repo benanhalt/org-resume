@@ -1,11 +1,11 @@
-#+TITLE: Joe Bloggs
-#+AUTHOR: Joe Bloggs
+#+TITLE: Ben Anhalt
+#+AUTHOR: Ben Anhalt
 
 #+OPTIONS: toc:nil num:nil date:nil ':t
 #+MACRO: date @@latex: \hfill\normalfont{\small $1} @@ @@html: <div id=date>$1</div> @@ @@ascii: ($1) @@
 #+MACRO: pagebreak @@latex: \clearpage @@
 
-| *M*: 0000 000 000 | *E*: joe@bloggs.com |
+| [[https://con.cor.dance][con.cor.dance]] | [[mailto:ben@benanhalt.net][ben@benanhalt.net]] |
 
 * Format                                                           :noexport:
 ** Latex
@@ -15,7 +15,7 @@
   - Adjust the page margins (geometry package)
 
 *** Page layout
-    #+LATEX_CLASS_OPTIONS: [a4paper,11pt]
+    #+LATEX_CLASS_OPTIONS: [letterpaper,11pt]
     #+LATEX_HEADER: \usepackage[left=3cm, right=3cm, top=2.7cm, bottom=2.7cm]{geometry}
     #+LATEX_HEADER: \usepackage{parskip}
     #+LATEX_HEADER: \usepackage{microtype}
@@ -52,58 +52,83 @@
    #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="stylesheet.css" />
    #+OPTIONS: html-postamble:nil
 
-* Experience
-** Senior waiter {{{date(Jan 2011 -- Current)}}}
-   /Chateaux Le Goog/
+* Skills
 
-   - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-   - Proin sagittis purus sed lorem convallis, luctus lobortis nibh fringilla.
-   - Pellentesque dignissim sapien ac ex ullamcorper accumsan.
-   - Mauris ut lorem at libero auctor viverra sit amet in dolor.
+  - *Languages*: Python, Javascript, Go, Java, Elm, Haskell, SQL, HTML, XML
+  - *Libraries*: Django, SQLAlchemy, Celery, JQuery, Backbone.js
+  - *Databases*: Postgres, MySQL, Solr
+  - *Tools and Software*: Docker, Docker Compose, OpenAPI, Apache, Nginx, Git
+  - *Services*: Github, Digital Ocean, LetsEncrypt, Teams, Slack, Zoom
+  - *Professional*: Code Review, Agile, Mentoring, Candidate Interviews
 
-** Junior waiter {{{date(Feb 2008 -- Dec 2010)}}}
-   /Grand-Flix/
+* Work Experience
+** IT Specialist {{{date(Dec 2024 -- Feb 2025)}}}
+   /[[https://www.fpacbc.usda.gov/geospatial-services][USDA-FPAC Geospatial Services]]/
+   
+   - Member of Data Provisioning Team effecting migration of GIS service pipelines and data storage from on-prem to AWS cloud.
+   - Passed background check for Public Trust position.
+   - Successfully on-boarded into remote position with a federal agency.
+   - Received training in ArcGIS products.
+     
+** Senior Cloud Backend Engineer {{{date(Nov 2022 -- Aug 2023)}}}
+   /[[https://thread.one][Thread]]/
 
-   - Pellentesque eget magna at erat convallis condimentum at sit amet dui.
-   - Nam ac augue eget diam laoreet dapibus et efficitur mi.
-   - Mauris ullamcorper massa eget erat convallis, et tincidunt tortor ultricies.
-   - Mauris vel felis lobortis, dapibus dolor quis, porttitor nibh.
+   - Individual contributor within cloud team of about 10 engineers.
+   - Upgraded and enhanced existing web-based data management application according to user requirements.
+   - Designed and implemented REST APIs in Go to be deployed to the AWS cloud hosted microservices back end.
+   - Developed SQL queries and schema migrations for PostgreSQL database.
+   - Analyzed and resolved performance issues in SQL queries.
+   - Developed unit and integration tests.
+   - Implemented relationship-based authorization system (ReBAC).
+   - Diagnosed and resolved user-reported defects.
+   - Participated in code reviews and Agile development methodology.
+   - Communicated effectively within a remote, distributed team, utilizing Slack and Microsoft Teams.
+   - Documented work in Architecture Decision Records (ADR) and entries in company knowledge base.
 
-** Graduate waiter {{{date(Apr 2006 -- Jan 2008)}}}
-   /Regis on the Knuth/
+** Research Architect {{{date(Jan 2018 -- Nov 2022)}}}
+   /[[https://specifysoftware.org][Specify Collections Consortium]]/
 
-   - Maecenas sodales libero at magna feugiat condimentum.
-   - Nulla at metus at turpis maximus efficitur nec sed elit.
+   - Lead developer for Specify, a not-for-profit, member supported software project within the Biodiversity Institute at the University of Kansas providing open-source digital collection management software for biological research and natural history museum collections. Features include data ingestion, inventory, reporting, search, label creation, workflow processes, and on-prem and hosted cloud deployment options.
+   - Collaborated with subject matter experts to determine user requirements.
+   - Provided technical expertise regarding cloud services, software development best practices, including analysis and evaluation of open-source and COTS software libraries and tooling for use throughout the software development life cycle (SDLC).
+   - Analyzed customer requirements to develop recommendations and proposals for new features and enhancements to existing applications, taking into account alternatives and cost-effectiveness.
+   - Developed application and infrastructure architecture.
+   - Coordinated software releases with an emphasis on CI/CD and reproducible builds utilizing Docker.
+   - Participated in webinars to apprise stakeholders of project goals and direction and to gather feedback.
+   - Authored architectural, technical, and operational documentation in wikis and support pages.
+   - Improved capabilities for export via Darwin Core, an extension of Dublin Core for interchange of bioinformatics data between organizations.
 
+** Research Engineer {{{date(2014 -- Jan 2018)}}}
+   /[[https://biodiversity.ku.edu/][University of Kansas Biodiversity Institute]]/
+   
+   - Individual contributor on the Specify and Lifemapper projects including feature enhancements and resolving issues as part of a 3-4 member engineering team.
+   - Led full-stack development of the Specify 7 web application, developing and maintaining Django based backend providing REST APIs and business logic, and JS single page application (SPA) frontend.
+   - Developed related cloud services for digital asset management and full-text search.
+   - Monitored cloud infrastructure for performance and stability.
+   - Supported end users via email and screen sharing.
+   - Worked independently to design, implement, test, and merge new components based on issue tracking in Github using Agile methodology.
+   - Performed data migrations between systems with different schemas utilizing SQL and Python scripts.
+   - Managed operation infrastructure including MySQL, Apache Solr, Apache HTTP server, and Nginx services in on-site installations and cloud VMs at Digital Ocean.
+   - Represented the project in a technical capacity at conferences.   
+
+** Programmer I {{{date(2011 -- 2014)}}}
+   /[[https://biodiversity.ku.edu/][University of Kansas Biodiversity Institute]]/
+   
+   - Individual contributor on the Specify project.
+   - Delivered new features, and enhancements and resolved issues in existing Specify 6 Java desktop application.
+   - Took initiative in launching development of new Specify 7 web-based application leveraging existing MySQL database schema to provide backward-compatible upgrade path for users.
+   - Migrated version control for large codebase from SVN to Git.
+   - Took part in subject matter conferences to demo new features and gather user requirements and feedback.
+     
 * Education
-** Bachelor of Waiting (Scholars) {{{date(2002 -- 2005)}}}
-   /University of Dining/
+** Master of Science - Physics
+   /University of Kansas/
 
-   - Duis id sapien hendrerit, tincidunt risus vel, aliquam orci.
-   - Nulla finibus dui ut ex lobortis tempor.
-   - Cras dapibus diam eu purus efficitur consectetur.
+   - Investigated optimization strategies for nonlinear beam -- beam interactions in the Tevatron particle accelerator.
+   - Developed code in C++ and Fortran to model and simulate beam -- beam interactions.
 
-** Year 12 Certificate {{{date(2001)}}}                            :noexport:
-   /Lorem Ipsum High/
+** Bachelor of Science - Physics, Mathematics
+   /Missouri State University/
 
-   - Quisque blandit turpis quis lacinia sagittis.
-   - Aenean a justo tempor dui porta euismod.
-
-* Publications and conferences
-  - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  - Ut nec tellus sit amet purus consectetur sollicitudin et quis justo.
-  - Donec rhoncus lectus sed congue aliquam.
-  - Phasellus quis velit auctor, condimentum eros ac, maximus orci.
-  - Nunc sodales ex at felis semper dictum sed vitae ipsum.
-
-** {{{pagebreak()}}}
-
-* Skills and qualifications
-  - Sed ac libero ullamcorper, suscipit odio quis, blandit nunc.
-  - Praesent ac lacus id lorem laoreet fringilla.
-  - Sed quis lectus eget dui mollis venenatis consectetur a neque.
-  - Curabitur tincidunt sem sed odio hendrerit, non luctus nisl ultricies.
-  - Curabitur accumsan turpis varius venenatis malesuada.
-
-* References                                                       :noexport:
-  References available upon request
+   - Magna Cum Laude in the Honors College
+   - GPA: 3.8
