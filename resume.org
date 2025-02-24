@@ -79,7 +79,7 @@
    - Upgraded and enhanced existing web-based data management application according
      to user requirements.
    - Designed and implemented REST APIs in Go to be deployed to the AWS cloud hosted
-     microservices back end.
+     microservices backend.
    - Developed SQL queries and schema migrations for PostgreSQL databases.
    - Analyzed and resolved performance issues in SQL queries.
    - Developed unit and integration tests.
