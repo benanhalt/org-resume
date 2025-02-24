@@ -59,13 +59,15 @@
   - *Databases*: Postgres, MySQL, Solr
   - *Tools and Software*: Linux, Docker, Git, OpenAPI, Apache, Nginx
   - *Services*: Github, Digital Ocean, LetsEncrypt, Teams, Slack, Zoom
-  - *Soft Skills*: Code Review, Agile, Mentoring, Hiring Committees, Customer Service
+  - *Soft Skills*: Code Review, Agile, Mentoring, Hiring Committees, Customer
+    Service
 
 * Work Experience
 ** IT Specialist {{{date(Dec 2024 -- Feb 2025)}}}
    /[[https://www.fpacbc.usda.gov/geospatial-services][USDA -- Farm Production and Conservation Business Center -- Geospatial Services]]/
    
-   - Member of Data Provisioning Team effecting migration of GIS service pipelines and data storage from on-prem to AWS cloud.
+   - Member of Data Provisioning Team effecting migration of GIS service pipelines
+     and data storage from on-prem to AWS cloud.
    - Obtained Public Trust clearance.
    - Successfully on-boarded into remote position with a federal agency.
    - Received training in ArcGIS products.
@@ -74,57 +76,89 @@
    /[[https://thread.one][Thread]] -- SaaS provider for energy utilities/
 
    - Individual contributor within cloud team of about 10 engineers.
-   - Upgraded and enhanced existing web-based data management application according to user requirements.
-   - Designed and implemented REST APIs in Go to be deployed to the AWS cloud hosted microservices back end.
+   - Upgraded and enhanced existing web-based data management application according
+     to user requirements.
+   - Designed and implemented REST APIs in Go to be deployed to the AWS cloud hosted
+     microservices back end.
    - Developed SQL queries and schema migrations for PostgreSQL databases.
    - Analyzed and resolved performance issues in SQL queries.
    - Developed unit and integration tests.
    - Implemented relationship-based authorization system (ReBAC).
    - Diagnosed and resolved user reported defects.
    - Participated in code reviews and Agile development methodology.
-   - Communicated effectively within a remote, distributed team, utilizing Slack and Microsoft Teams.
-   - Documented work in Architecture Decision Records (ADR) and entries in company knowledge base using Notion.
+   - Communicated effectively within a remote, distributed team, utilizing Slack and
+     Microsoft Teams.
+   - Documented work in Architecture Decision Records (ADR) and entries in company
+     knowledge base using Notion.
 
 ** Research Architect {{{date(Jan 2018 -- Nov 2022)}}}
    /[[https://specifysoftware.org][Specify Collections Consortium]]/
 
-   - Lead developer for Specify, a not-for-profit, member supported software project within the Biodiversity Institute at the University of Kansas that provides open-source digital collection management software for biological research and natural history museum collections. Features include data ingestion, inventory, reporting, search, label creation, workflow processes, and on-prem and hosted cloud deployment options.
+   - Lead developer for Specify, a not-for-profit, member supported software project
+     within the Biodiversity Institute at the University of Kansas that provides
+     open-source digital collection management software for biological research and
+     natural history museum collections. Features include data ingestion, inventory,
+     reporting, search, label creation, workflow processes, and on-prem and hosted
+     cloud deployment options.
    - Collaborated with subject matter experts to determine user requirements.
-   - Provided technical expertise regarding cloud services, software development best practices, including analysis and evaluation of open-source and COTS software libraries and tooling for use throughout the software development life cycle (SDLC).
-   - Analyzed customer requirements to develop recommendations and proposals for new features and enhancements to existing applications, taking into account alternatives and cost-effectiveness.
+   - Provided technical expertise regarding cloud services, software development
+     best practices, including analysis and evaluation of open-source and COTS
+     software libraries and tooling for use throughout the software development life
+     cycle (SDLC).
+   - Analyzed customer requirements to develop recommendations and proposals for new
+     features and enhancements to existing applications, taking into account
+     alternatives and cost-effectiveness.
    - Developed application and infrastructure architecture.
-   - Coordinated software releases with an emphasis on CI/CD and reproducible builds utilizing Docker.
-   - Participated in webinars to apprise stakeholders of project goals and gather feedback.
-   - Authored architectural, technical, and operational documentation in wikis and support pages.
-   - Served on hiring committees for developers which included formulating questions, participating in interviews, assessing code samples, and evaluating candidates.
+   - Coordinated software releases with an emphasis on CI/CD and reproducible builds
+     utilizing Docker.
+   - Participated in webinars to apprise stakeholders of project goals and gather
+     feedback.
+   - Authored architectural, technical, and operational documentation in wikis and
+     support pages.
+   - Served on hiring committees for developers which included formulating
+     questions, participating in interviews, assessing code samples, and evaluating
+     candidates.
 
 ** Research Engineer {{{date(2014 -- Jan 2018)}}}
    /[[https://biodiversity.ku.edu/][University of Kansas Biodiversity Institute]]/
    
-   - Individual contributor on the Specify and Lifemapper projects including feature enhancements and issue resolution as part of a 3-4 member engineering team.
-   - Led full-stack development of the Specify 7 web application, developing and maintaining Django based backend providing REST APIs and business logic, and JS single page application (SPA) frontend.
-   - Developed related cloud services for digital asset management and full-text search.
+   - Individual contributor on the Specify and Lifemapper projects including feature
+     enhancements and issue resolution as part of a 3-4 member engineering team.
+   - Led full-stack development of the Specify 7 web application, developing and
+     maintaining Django based backend providing REST APIs and business logic, and JS
+     single page application (SPA) frontend.
+   - Developed related cloud services for digital asset management and full-text
+     search.
    - Monitored cloud infrastructure for performance and stability.
    - Supported end users via email and screen sharing.
-   - Worked independently to design, implement, test, and merge new components based on issue tracking in Github using Agile methodology.
-   - Performed data migrations between systems with different schemas, utilizing SQL and Python scripts.
-   - Managed operation infrastructure including MySQL, Apache Solr, Apache HTTP server, and Nginx services in on-site installations and cloud VMs at Digital Ocean.
-   - Represented the project in a technical capacity at international conferences.   
+   - Worked independently to design, implement, test, and merge new components based
+     on issue tracking in Github using Agile methodology.
+   - Performed data migrations between systems with different schemas, utilizing SQL
+     and Python scripts.
+   - Managed operation infrastructure including MySQL, Apache Solr, Apache HTTP
+     server, and Nginx services in on-site installations and cloud VMs at Digital
+     Ocean.
+   - Represented the project in a technical capacity at international conferences.
 
 ** Programmer I {{{date(2011 -- 2014)}}}
    /[[https://biodiversity.ku.edu/][University of Kansas Biodiversity Institute]]/
    
    - Individual contributor on the Specify project.
-   - Delivered new features and enhancements and resolved issues in existing Specify 6 Java desktop application.
-   - Took initiative in launching development of new Specify 7 web-based application, leveraging existing MySQL database schema to provide backward-compatible upgrade path for users.
+   - Delivered new features and enhancements and resolved issues in existing Specify
+     6 Java desktop application.
+   - Took initiative in launching development of new Specify 7 web-based
+     application, leveraging existing MySQL database schema to provide
+     backward-compatible upgrade path for users.
    - Migrated version control for large codebase from SVN to Git.
-   - Took part in subject matter conferences to demo new features and gather user requirements and feedback.
+   - Took part in subject matter conferences to demo new features and gather user
+     requirements and feedback.
      
 * Education
 ** Master of Science -- Physics
    /University of Kansas/
 
-   - Investigated optimization strategies for nonlinear beam-beam interactions in the Tevatron particle accelerator.
+   - Investigated optimization strategies for nonlinear beam-beam interactions in
+     the Tevatron particle accelerator.
    - Developed code in C++ and Fortran to model and simulate beam-beam interactions.
 
 ** Bachelor of Science -- Physics, Mathematics
