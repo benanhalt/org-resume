@@ -59,19 +59,19 @@
   - *Databases*: Postgres, MySQL, Solr
   - *Tools and Software*: Linux, Docker, Git, OpenAPI, Apache, Nginx
   - *Services*: Github, Digital Ocean, LetsEncrypt, Teams, Slack, Zoom
-  - *Soft Skills*: Code Review, Agile, Mentoring, Hiring Committees
+  - *Soft Skills*: Code Review, Agile, Mentoring, Hiring Committees, Customer Service
 
 * Work Experience
 ** IT Specialist {{{date(Dec 2024 -- Feb 2025)}}}
-   /[[https://www.fpacbc.usda.gov/geospatial-services][USDA-FPAC Geospatial Services]]/
+   /[[https://www.fpacbc.usda.gov/geospatial-services][USDA -- Farm Production and Conservation Business Center -- Geospatial Services]]/
    
    - Member of Data Provisioning Team effecting migration of GIS service pipelines and data storage from on-prem to AWS cloud.
-   - Public Trust clearance.
+   - Obtained Public Trust clearance.
    - Successfully on-boarded into remote position with a federal agency.
    - Received training in ArcGIS products.
      
 ** Senior Cloud Backend Engineer {{{date(Nov 2022 -- Aug 2023)}}}
-   /[[https://thread.one][Thread]]/
+   /[[https://thread.one][Thread]] -- SaaS provider for energy utilities/
 
    - Individual contributor within cloud team of about 10 engineers.
    - Upgraded and enhanced existing web-based data management application according to user requirements.
@@ -88,35 +88,35 @@
 ** Research Architect {{{date(Jan 2018 -- Nov 2022)}}}
    /[[https://specifysoftware.org][Specify Collections Consortium]]/
 
-   - Lead developer for Specify, a not-for-profit, member supported software project within the Biodiversity Institute at the University of Kansas providing open-source digital collection management software for biological research and natural history museum collections. Features include data ingestion, inventory, reporting, search, label creation, workflow processes, and on-prem and hosted cloud deployment options.
+   - Lead developer for Specify, a not-for-profit, member supported software project within the Biodiversity Institute at the University of Kansas that provides open-source digital collection management software for biological research and natural history museum collections. Features include data ingestion, inventory, reporting, search, label creation, workflow processes, and on-prem and hosted cloud deployment options.
    - Collaborated with subject matter experts to determine user requirements.
    - Provided technical expertise regarding cloud services, software development best practices, including analysis and evaluation of open-source and COTS software libraries and tooling for use throughout the software development life cycle (SDLC).
    - Analyzed customer requirements to develop recommendations and proposals for new features and enhancements to existing applications, taking into account alternatives and cost-effectiveness.
    - Developed application and infrastructure architecture.
    - Coordinated software releases with an emphasis on CI/CD and reproducible builds utilizing Docker.
-   - Participated in webinars to apprise stakeholders of project goals and direction and to gather feedback.
+   - Participated in webinars to apprise stakeholders of project goals and gather feedback.
    - Authored architectural, technical, and operational documentation in wikis and support pages.
-   - Served on hiring committees for developers including formulating questions, participating in interviews, assessing code samples, and evaluating candidates.
+   - Served on hiring committees for developers which included formulating questions, participating in interviews, assessing code samples, and evaluating candidates.
 
 ** Research Engineer {{{date(2014 -- Jan 2018)}}}
    /[[https://biodiversity.ku.edu/][University of Kansas Biodiversity Institute]]/
    
-   - Individual contributor on the Specify and Lifemapper projects including feature enhancements and resolving issues as part of a 3-4 member engineering team.
+   - Individual contributor on the Specify and Lifemapper projects including feature enhancements and issue resolution as part of a 3-4 member engineering team.
    - Led full-stack development of the Specify 7 web application, developing and maintaining Django based backend providing REST APIs and business logic, and JS single page application (SPA) frontend.
    - Developed related cloud services for digital asset management and full-text search.
    - Monitored cloud infrastructure for performance and stability.
    - Supported end users via email and screen sharing.
    - Worked independently to design, implement, test, and merge new components based on issue tracking in Github using Agile methodology.
-   - Performed data migrations between systems with different schemas utilizing SQL and Python scripts.
+   - Performed data migrations between systems with different schemas, utilizing SQL and Python scripts.
    - Managed operation infrastructure including MySQL, Apache Solr, Apache HTTP server, and Nginx services in on-site installations and cloud VMs at Digital Ocean.
-   - Represented the project in a technical capacity at conferences.   
+   - Represented the project in a technical capacity at international conferences.   
 
 ** Programmer I {{{date(2011 -- 2014)}}}
    /[[https://biodiversity.ku.edu/][University of Kansas Biodiversity Institute]]/
    
    - Individual contributor on the Specify project.
-   - Delivered new features, and enhancements and resolved issues in existing Specify 6 Java desktop application.
-   - Took initiative in launching development of new Specify 7 web-based application leveraging existing MySQL database schema to provide backward-compatible upgrade path for users.
+   - Delivered new features and enhancements and resolved issues in existing Specify 6 Java desktop application.
+   - Took initiative in launching development of new Specify 7 web-based application, leveraging existing MySQL database schema to provide backward-compatible upgrade path for users.
    - Migrated version control for large codebase from SVN to Git.
    - Took part in subject matter conferences to demo new features and gather user requirements and feedback.
      
